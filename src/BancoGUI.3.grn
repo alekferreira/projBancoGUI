@@ -1,0 +1,39 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=BancoGUI/src<br.ifpb.tarifas{Tarifa.java[Tarifa"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="158"/>
+      <y="-6"/>
+   </type>
+   <type>
+      <name="=BancoGUI/src<br.ifpb.tarifas{TarifaContaCorrente.java[TarifaContaCorrente"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="12"/>
+      <y="346"/>
+   </type>
+   <type>
+      <name="=BancoGUI/src<br.ifpb.tarifas{TarifaPoupanca.java[TarifaPoupanca"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="390"/>
+      <y="359"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=BancoGUI/src<br.ifpb.tarifas{TarifaPoupanca.java[TarifaPoupanca"/>
+      <targetType="=BancoGUI/src<br.ifpb.tarifas{Tarifa.java[Tarifa"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=BancoGUI/src<br.ifpb.tarifas{TarifaContaCorrente.java[TarifaContaCorrente"/>
+      <targetType="=BancoGUI/src<br.ifpb.tarifas{Tarifa.java[Tarifa"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

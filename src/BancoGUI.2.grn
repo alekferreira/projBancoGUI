@@ -1,0 +1,67 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=BancoGUI/src<br.ifpb.outros{GUI.java[GUI"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=BancoGUI/src<br.ifpb.outros{Agencia.java[Agencia"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="475"/>
+      <y="302"/>
+   </type>
+   <type>
+      <name="=BancoGUI/src<br.ifpb.outros{Banco.java[Banco"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="713"/>
+      <y="243"/>
+   </type>
+   <type>
+      <name="=BancoGUI/src<br.ifpb.outros{caracteristicasAgencia.java[caracteristicasAgencia"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="634"/>
+      <y="-17"/>
+   </type>
+   <type>
+      <name="=BancoGUI/src<br.ifpb.outros{Cliente.java[Cliente"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="565"/>
+      <y="954"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=BancoGUI/src<br.ifpb.outros{GUI.java[GUI"/>
+      <targetType="=BancoGUI/src<br.ifpb.outros{Agencia.java[Agencia"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=BancoGUI/src<br.ifpb.outros{GUI.java[GUI"/>
+      <targetType="=BancoGUI/src<br.ifpb.outros{Cliente.java[Cliente"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=BancoGUI/C:\/Program Files\/Java\/jre6\/lib\/rt.jar<javax.swing(JFrame.class[JFrame"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="200"/>
+      <y="0"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=BancoGUI/src<br.ifpb.outros{GUI.java[GUI"/>
+      <targetType="=BancoGUI/C:\/Program Files\/Java\/jre6\/lib\/rt.jar<javax.swing(JFrame.class[JFrame"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
