@@ -9,7 +9,7 @@ import br.ifpb.tarifas.Tarifa;
  * Esta eh a classe Conta corrente que representara
  * as informacoes relacionada a um tipo do mundo real
  * chamado conta corrente
- * @author iponts
+ * @author iponts e aleksandro
  */
 public class ContaCorrente extends Conta {
 	
@@ -19,8 +19,10 @@ public class ContaCorrente extends Conta {
 	 * @param senha Senha da conta
 	 */
 	public ContaCorrente( Tarifa tarifa, String senha ) {
+		
 		setTarifa( tarifa );
 		setSenha( senha );
+		
 	}
 	
 }
