@@ -505,13 +505,14 @@ public class Banco {
 					for( int cont3=0; cont3<c.size();cont3++ ) {
 						conta = c.get(cont3);
 						if ( conta.getNumConta() == numConta ) {
+							if(conta.getSenha().equals(senha))
 							return conta.getExtrato();
 						}
 					}
 				}
 			}
 		}
-		return "NÃ£o foi possÃ­vel localizar o saldo!";
+		return "Não foi possível localizar o saldo!";
 	}
 	
 	/**
@@ -562,6 +563,7 @@ public class Banco {
 					for( int cont3=0; cont3<c.size();cont3++ ) {
 						conta = c.get(cont3);
 						if ( conta.getNumConta() == numConta ) {
+							if(conta.getSenha().equals(senha))
 							return conta.setSaque( valor );
 						}
 					}

@@ -927,7 +927,7 @@ public class GUI extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
        
-        String agencia = jTextField6.getText();
+        int agencia = Integer.parseInt(jTextField6.getText());
         String cpf = jTextField7.getText();
         jTextArea1.setText( Banco.pesquisaClienteNaAgenciaCPF( agencia, cpf ) );
         jTextField6.setText( "" );
@@ -950,7 +950,7 @@ public class GUI extends javax.swing.JFrame {
         String cpf = jTextField10.getText();
         int numConta = Integer.parseInt( jTextField11.getText() );
         String tipoConta = (String) jComboBox1.getSelectedItem();
-        String agencia = jTextField12.getText();
+        int agencia = Integer.parseInt(jTextField12.getText());
         
         Conta conta = new ContaCorrente( new TarifaContaCorrente( ), senha );
         if( tipoConta.equals( "Conta corrente" ) )
@@ -997,11 +997,11 @@ public class GUI extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
        
-        int numAgencia = Integer.parseInt( jTextField18.getText() );
-        String cpf = jTextField19.getText();
+        int numConta = Integer.parseInt( jTextField18.getText() );
+        int numAgencia = Integer.parseInt(jTextField19.getText());
         String senha = jPasswordField7.getText(  );
         
-        jTextArea3.setText( Banco.getSaldo( numAgencia, cpf, senha ) );
+        jTextArea3.setText( Banco.getSaldo( numAgencia, numConta, senha ) );
         
         jTextField18.setText( "" );
         jTextField19.setText( "" );
@@ -1010,11 +1010,11 @@ public class GUI extends javax.swing.JFrame {
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
        
-        int numAgencia = Integer.parseInt( jTextField21.getText() );
-        String cpf = jTextField22.getText();
+        int numConta = Integer.parseInt( jTextField21.getText() );
+        int numAgencia= Integer.parseInt(jTextField22.getText());
         String senha = jPasswordField8.getText(  );
         
-        jTextArea3.setText( Banco.getExtrato( numAgencia, cpf, senha ) );
+        jTextArea3.setText( Banco.getExtrato( numAgencia, numConta, senha ) );
         
         jTextField21.setText( "" );
         jTextField22.setText( "" );
@@ -1043,7 +1043,7 @@ public class GUI extends javax.swing.JFrame {
         int numAgencia = Integer.parseInt( jTextField27.getText() );
         int numConta = Integer.parseInt( jTextField28.getText() );
         float deposito = Float.parseFloat( jTextField29.getText() );
-        String senha = jPasswordField8.getText(  );
+        String senha = jPasswordField9.getText(  );
         
         JOptionPane.showMessageDialog( null, Banco.setSaque( numAgencia, numConta, senha, deposito ) ? "Saque realizado com sucesso!" : "Falha ao sacar!" );
         
