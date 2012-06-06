@@ -99,7 +99,7 @@ public class Banco {
 			return "As informações encontradas para pessoas com este nome foi:\n" + informações;
 			}
 		}
-		return "NÃ£o foi possÃ­vel localizar alguma agÃªncia com este nome";
+		return "NÃ£o foi possÃ­vel localizar alguma agência com este nome";
 	}
 	
 	/**
@@ -124,7 +124,7 @@ public class Banco {
 				return "As informações encontradas para pessoas com este nome foi:\n" + informações;
 			}
 		}
-		return "NÃ£o foi possÃ­vel localizar alguma agÃªncia com este nome";
+		return "NÃ£o foi possÃ­vel localizar alguma agência com este nome";
 	}
 	
 	/**
@@ -151,7 +151,7 @@ public class Banco {
 			return "NÃ£o foi possÃ­vel localizar alguÃ©m com este nome";
 			}			
 		}
-		return "NÃ£o foi possÃ­vel localizar alguma agÃªncia com este nome";
+		return "NÃ£o foi possÃ­vel localizar alguma agência com este nome";
 	}
 	
 	/**
@@ -178,7 +178,7 @@ public class Banco {
 			return "NÃ£o foi possÃ­vel localizar alguÃ©m com este nome";
 			}			
 		}
-		return "NÃ£o foi possÃ­vel localizar alguma agÃªncia com este nome";
+		return "NÃ£o foi possÃ­vel localizar alguma agência com este nome";
 	}
 	
 	/**
@@ -257,7 +257,7 @@ public class Banco {
 						}
 						ca.setId( agencia.getId() );
 						ca.setNome( agencia.getNome() );
-						conta.setAgÃªncia( ca );
+						conta.setAgência( ca );
 						conta.setNumConta(numConta);
 						cliente.add( conta );
 						return true;
@@ -296,7 +296,7 @@ public class Banco {
 						}
 						ca.setId( agencia.getId() );
 						ca.setNome( agencia.getNome() );
-						conta.setAgÃªncia( ca );
+						conta.setAgência( ca );
 						conta.setNumConta(numConta);
 						cliente.add( conta );
 						return true;
@@ -393,7 +393,7 @@ public class Banco {
 				}
 			}
 		}
-		return "Nenhuma referÃªncia encontrada!";
+		return "Nenhuma referência encontrada!";
 	}
 	
 	/**
@@ -418,7 +418,7 @@ public class Banco {
 				}
 			}
 		}
-		return "Nenhuma referÃªncia encontrada!";
+		return "Nenhuma referência encontrada!";
 	}
 	
 	/**

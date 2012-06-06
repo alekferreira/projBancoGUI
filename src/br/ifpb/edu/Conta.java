@@ -120,10 +120,10 @@ public abstract class Conta {
 	}
 
 	/**
-	 * Retorna o tipo da agÃªncia anexada a conta
+	 * Retorna o tipo da agência anexada a conta
 	 * @return Tipo da agencia
 	 */
-	public caracteristicasAgencia getAgÃªncia() {
+	public caracteristicasAgencia getAgência() {
 		return agencia;
 	}
 
@@ -147,8 +147,8 @@ public abstract class Conta {
 	 * Atribui uma agencia a conta
 	 * @param Agencia a ser atribuida
 	 */
-	public void setAgÃªncia( caracteristicasAgencia agÃªncia) {
-		agencia = agÃªncia;
+	public void setAgência( caracteristicasAgencia agência) {
+		agencia = agência;
 	}
 
 	/**
