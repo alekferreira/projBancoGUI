@@ -100,7 +100,7 @@ public class Cliente {
 	 * @param cpf identificador do cliente
 	 */
 	public void setCpf(String cpf) {
-		cpf = formataCPF(cpf);
+		cpf=formataCPF(cpf);
 	}
 	
 	/**
@@ -120,7 +120,7 @@ public class Cliente {
 	 */
 	@Override
 	public String toString( ) {
-		String info = "\nCliente: " + nome + "\nCPF: " + cpf + "\n\n";
+		String info = " \nCliente: " + nome + "\nCPF: " + cpf + "\n\n";
 		for( int cont=0; cont<contas.size(); cont++ ) 
 			info += contas.get(cont).toString();
 		return info;
