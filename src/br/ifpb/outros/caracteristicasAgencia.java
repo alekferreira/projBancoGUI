@@ -12,8 +12,8 @@ public class caracteristicasAgencia {
 			public void setId( int id ) {
 				if ( id > 999 && id <= 99999 )
 				Id = id;
-				else
-				Id = 9999;
+					else
+						Id = 9999;
 			}
 			
 			/**
@@ -47,7 +47,7 @@ public class caracteristicasAgencia {
 			 */
 			@Override
 			public String toString() {
-				return "CaracterÃ­sticas da Agencia:\nNÃºmero:\t" + getId( ) + "\tNome:\t" + getNome( );
+				return "Características da Agencia:\nNúmero:\t" + getId( ) + "\tNome:\t" + getNome( );
 			}
 			
 }

@@ -67,7 +67,7 @@ public class Cliente {
 	 * @return numero de contas na lista
 	 */
 	public int size( ) {
-		return contas.size( );
+		return contas.size();
 	}
 	
 	/**
@@ -100,7 +100,7 @@ public class Cliente {
 	 * @param cpf identificador do cliente
 	 */
 	public void setCpf(String cpf) {
-		cpf = formataCPF( cpf );
+		cpf = formataCPF(cpf);
 	}
 	
 	/**
@@ -109,7 +109,7 @@ public class Cliente {
 	 * @return CPF formatado de acordo com os parametros gerais
 	 */
 	public static String formataCPF( String cpf ) {
-		if( cpf.length() != 11 )
+		if(cpf.length() != 11)
 			return null;
 		cpf = cpf.substring(0, 3) + "." + cpf.substring(3, 6) + "." + cpf.substring(6, 9) + "-" + cpf.substring(9, 11);
 		return cpf;
@@ -120,7 +120,7 @@ public class Cliente {
 	 */
 	@Override
 	public String toString( ) {
-		String info = "Cliente: " + nome + "\nCPF: " + cpf + "\n\n";
+		String info = "\nCliente: " + nome + "\nCPF: " + cpf + "\n\n";
 		for( int cont=0; cont<contas.size(); cont++ ) 
 			info += contas.get(cont).toString();
 		return info;
