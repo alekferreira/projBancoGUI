@@ -4,8 +4,8 @@ import br.ifpb.outros.caracteristicasAgencia;
 import br.ifpb.tarifas.Tarifa;
 
 /**
- * Esta classe abstrata permitira o polimorfismo para a criaÃ§Ã£o de novos tipos de conta
- * @author iponts
+ * Esta classe abstrata permitira o polimorfismo para a criação de novos tipos de conta
+ * @author iponts e aleksandro ferreira
  *
  */
 public abstract class Conta {
