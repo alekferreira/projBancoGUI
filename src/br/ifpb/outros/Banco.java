@@ -79,30 +79,6 @@ public class Banco {
 	
 	/**
 	 * Metodo que pesquisa clientes dentro de uma agencia
-	 * @param agencia Nome da agencia a ser pesquisada
-	 * @param cliente Nome do cliente a ser pesquisado
-	 * @return Mensagem de retorno
-	 */
-	public static String pesquisaClienteNaAgencia( String agencia, String cliente ) {
-		Agencia aux = new Agencia( );
-		Cliente c = new Cliente( );
-		String informações = new String( );
-		for( int cont = 0; cont<listaAgencia.size(); cont++ ){
-			aux = listaAgencia.get( cont ); 
-			if ( aux.getNome( ).equals( agencia ) ) {
-				for( int cont2 = 0; cont2 < aux.size(); cont2++ ) {
-					c = aux.get( cont2 );
-					if( c.getNome( ).equals( cliente ) ) {
-						informações += c.toString() + "\n";
-					}
-				}
-			return "As informações encontradas para pessoas com este nome foi:\n" + informações;
-			}
-		}
-		return "NÃ£o foi possÃ­vel localizar alguma agência com este nome";
-	}
-	/**
-	 * Metodo que pesquisa clientes dentro de uma agencia
 	 * @param agencia Codigo da agencia a ser pesquisada
 	 * @param cliente Nome do cliente a ser pesquisado
 	 * @return Mensagem de retorno
