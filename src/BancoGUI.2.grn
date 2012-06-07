@@ -11,8 +11,8 @@
       <name="=BancoGUI/src<br.ifpb.outros{Agencia.java[Agencia"/>
       <height="-1"/>
       <width="-1"/>
-      <x="475"/>
-      <y="302"/>
+      <x="482"/>
+      <y="224"/>
    </type>
    <type>
       <name="=BancoGUI/src<br.ifpb.outros{Banco.java[Banco"/>
@@ -25,8 +25,8 @@
       <name="=BancoGUI/src<br.ifpb.outros{caracteristicasAgencia.java[caracteristicasAgencia"/>
       <height="-1"/>
       <width="-1"/>
-      <x="634"/>
-      <y="-17"/>
+      <x="546"/>
+      <y="13"/>
    </type>
    <type>
       <name="=BancoGUI/src<br.ifpb.outros{Cliente.java[Cliente"/>
@@ -34,6 +34,13 @@
       <width="-1"/>
       <x="565"/>
       <y="954"/>
+   </type>
+   <type>
+      <name="=BancoGUI/C:\/Program Files\/Java\/jre6\/lib\/rt.jar<javax.swing(JFrame.class[JFrame"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="21"/>
+      <y="58"/>
    </type>
    <relationship>
       <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
@@ -46,20 +53,6 @@
       <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
       <sourceType="=BancoGUI/src<br.ifpb.outros{GUI.java[GUI"/>
       <targetType="=BancoGUI/src<br.ifpb.outros{Cliente.java[Cliente"/>
-      <bendpoints>
-      </bendpoints>
-   </relationship>
-   <type>
-      <name="=BancoGUI/C:\/Program Files\/Java\/jre6\/lib\/rt.jar<javax.swing(JFrame.class[JFrame"/>
-      <height="-1"/>
-      <width="-1"/>
-      <x="200"/>
-      <y="0"/>
-   </type>
-   <relationship>
-      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
-      <sourceType="=BancoGUI/src<br.ifpb.outros{GUI.java[GUI"/>
-      <targetType="=BancoGUI/C:\/Program Files\/Java\/jre6\/lib\/rt.jar<javax.swing(JFrame.class[JFrame"/>
       <bendpoints>
       </bendpoints>
    </relationship>

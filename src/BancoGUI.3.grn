@@ -4,8 +4,8 @@
       <name="=BancoGUI/src<br.ifpb.tarifas{Tarifa.java[Tarifa"/>
       <height="-1"/>
       <width="-1"/>
-      <x="158"/>
-      <y="-6"/>
+      <x="171"/>
+      <y="66"/>
    </type>
    <type>
       <name="=BancoGUI/src<br.ifpb.tarifas{TarifaContaCorrente.java[TarifaContaCorrente"/>
@@ -23,14 +23,14 @@
    </type>
    <relationship>
       <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
-      <sourceType="=BancoGUI/src<br.ifpb.tarifas{TarifaPoupanca.java[TarifaPoupanca"/>
+      <sourceType="=BancoGUI/src<br.ifpb.tarifas{TarifaContaCorrente.java[TarifaContaCorrente"/>
       <targetType="=BancoGUI/src<br.ifpb.tarifas{Tarifa.java[Tarifa"/>
       <bendpoints>
       </bendpoints>
    </relationship>
    <relationship>
       <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
-      <sourceType="=BancoGUI/src<br.ifpb.tarifas{TarifaContaCorrente.java[TarifaContaCorrente"/>
+      <sourceType="=BancoGUI/src<br.ifpb.tarifas{TarifaPoupanca.java[TarifaPoupanca"/>
       <targetType="=BancoGUI/src<br.ifpb.tarifas{Tarifa.java[Tarifa"/>
       <bendpoints>
       </bendpoints>
